@@ -15,7 +15,7 @@
             "inline": [
                 "sudo yum install httpd  wget -y", 
                 "sudo yum install php php-mysql -y",
-                "sudo yum install php-gd mariadb-server",
+                "sudo yum install php-gd mariadb-server -y",
                 "sudo yum install mysql -y",
                 "sudo systemctl start httpd",
                 "sudo wget https://wordpress.org/latest.tar.gz",
